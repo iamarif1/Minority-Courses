@@ -1,7 +1,7 @@
 import React from 'react';
-import FeaturedSupport from '../FeaturedSupport/FeaturedSupport';
 import UpcomingStartups from '../UpcomingStartups/UpcomingStartups';
 import FeaturedStartups from './../FeaturedStartups/FeaturedStartups';
+import FeaturedSupport from './../FeaturedSupport/FeaturedSupport';
 
 const FeaturedArea = () => {
     return (
