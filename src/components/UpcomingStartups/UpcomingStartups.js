@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import upcomingStartupsCard from '../fakeData/home.json';
-import StartupsCardDetails from '../StartupsCardDetails/StartupsCardDetails';
 import './UpcomingStartups.css';
+import StartupsCardDetails from './../StartupsCardDetails/StartupsCardDetails';
 
 const UpcomingStartups = () => {
     const [startupsCards, setStartupsCards] = useState([]);
