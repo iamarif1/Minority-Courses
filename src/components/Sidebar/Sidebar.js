@@ -37,6 +37,7 @@ const Sidebar = () => {
         </div>
         <hr />
         <h3>Tags</h3>
+        <span className="inline-block">#tag1</span>
       </div>
     </div>
   );
