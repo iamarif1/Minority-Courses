@@ -1,16 +1,16 @@
 import React from 'react';
-import FeaturedStartups from './../FeaturedStartups/FeaturedStartups';
-import FeaturedSupport from './../FeaturedSupport/FeaturedSupport';
-import UpcomingStartups from './../UpcomingStartups/UpcomingStartups';
+import FeaturedStartups from '../FeaturedStartups/FeaturedStartups';
+import FeaturedSupport from '../FeaturedSupport/FeaturedSupport';
+import UpcomingStartups from '../UpcomingStartups/UpcomingStartups';
 
 const FeaturedArea = () => {
     return (
         <section className="features">
             <div>
                 <div className="row">
-                    <FeaturedStartups/>
+                    <FeaturedStartups></FeaturedStartups>
                     <FeaturedSupport/>
-                    <UpcomingStartups/>
+                    <UpcomingStartups></UpcomingStartups>
                 </div>
             </div>
         </section>
